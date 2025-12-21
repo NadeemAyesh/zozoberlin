@@ -1,3 +1,18 @@
+ const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target); // مرة وحدة بس
+      }
+    });
+  }, {
+    threshold: 0.15 // أول ما يدخل شوي على الشاشة
+  });
+
+  document.querySelectorAll('.fade-up').forEach(el => {
+    observer.observe(el);
+  });
+
 // Functions
 function carouselWidth() {
 
