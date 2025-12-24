@@ -119,4 +119,36 @@ $(document).ready(function () {
             }
         });
     }
+
+    if ($('.appartmaent-item-slides').length > 0) {
+        new Swiper('.appartmaent-item-slides', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    }
+
+    // 1. إعداد سلايدر المصغرات
+var swiperThumbs = new Swiper(".mySwiperThumbs", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  direction: "vertical", // هذا ما يجعلها عمودية
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+
+// 2. إعداد السلايدر الرئيسي وربطه بالمصغرات
+var swiperMain = new Swiper(".mySwiperMain", {
+  spaceBetween: 10,
+  thumbs: {
+    swiper: swiperThumbs, // ربط المصغرات هنا
+  },
+});
 });

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <title>Zozo Berlin</title>
+</head>
+
+<body>
+
+    <aside class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/images/zozoberlin.svg" alt="" title="" />
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="nav-container">
+                <ul class="navbar-nav custom-nav">
+                    <li class="nav-item" style="--delay: 1;">
+                        <a class="nav-link active" href="#"><span>01.</span> Home</a>
+                    </li>
+                    <li class="nav-item" style="--delay: 2;">
+                        <a class="nav-link" href="#"><span>02.</span> Apartments</a>
+                    </li>
+                    <li class="nav-item" style="--delay: 3;">
+                        <a class="nav-link" href="#"><span>03.</span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="offcanvas-footer p-2" style="--delay: 4;">
+            <a class="btn btn-premium w-100" href="#">Book Now</a>
+            <div class="social-links mt-4 text-center">
+                <small class="text-muted d-block mb-2">Follow Us</small>
+                <a href="#" class="me-3">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- main header Main -->
+    <header class="main-header sticky-top bg-wihte">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/zozoberlin.svg" alt="" title="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-text-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Apartments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="btn btn-nav" href="#">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main header -->
+
+    <!-- main hero or Slider -->
+    <main class="main-content">
+
+        <section class="list-of-items">
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-slider">
+                    <div class="swiper swiper-container appartmaent-item-slides">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <figure class="mb-0"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="mb-0"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                            </figure>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="mb-0"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                </div>
+                
+            </article>
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="mb-0 appartment-item-image"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                </figure>
+            </article>
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="mb-0 appartment-item-image"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                </figure>
+            </article>
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="mb-0 appartment-item-image"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                </figure>
+            </article>
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="mb-0 appartment-item-image"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                </figure>
+            </article>
+            <article class="appartment-item-in-list">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h3>Grand Prenzlauer Berg Residence</h3>
+                            <span class="price">115€ per night</span>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="rating">
+                                    <span>★★★★☆</span>
+                                </div>
+                                <span>5 Guests have reviewed this listing</span>
+                            </div>
+                            <p>
+                                This bright and welcoming Berlin apartment offers a cozy retreat in the heart of the
+                                city. Featuring modern furnishings and plenty of natural light, it’s ideal for both
+                                short stays and longer visits. Enjoy easy access to local cafes, shops, and public
+                                transport while experiencing the comfort of a home away from home.
+                            </p>
+                            <a href="" class="btn btn-Book-Check">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="mb-0 appartment-item-image"><img src="assets/images/banner.png" alt="Grand Prenzlauer Berg Residence" />
+                </figure>
+            </article>
+        </section>
+
+        <section class="testimonial-section position-relative  fade-up">
+            <!-- زر يسار -->
+            <div class="swiper-button-prev custom-nav"></div>
+
+            <div class="container">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <h6>Lena M.</h6>
+                                <div class="stars">★★★★★</div>
+                                <p>
+                                    Staying at ZOZO Berlin felt effortless from the moment I booked.
+                                    The apartment was bright, quiet, and thoughtfully furnished.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <h6>David R.</h6>
+                                <div class="stars">★★★★★</div>
+                                <p>
+                                    The space exceeded expectations in both design and practicality.
+                                    Everything was clean and well-equipped.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <h6>Sarah K.</h6>
+                                <div class="stars">★★★★★</div>
+                                <p>
+                                    Very comfortable stay, smooth check-in, and excellent support.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <h6>Sarah K.</h6>
+                                <div class="stars">★★★★★</div>
+                                <p>
+                                    Very comfortable stay, smooth check-in, and excellent support.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <h6>Sarah K.</h6>
+                                <div class="stars">★★★★★</div>
+                                <p>
+                                    Very comfortable stay, smooth check-in, and excellent support.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- زر يمين -->
+            <div class="swiper-button-next custom-nav"></div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 fade-up">
+                        <article class="feat-item">
+                            <div class="d-flex align-items-center">
+                                <figure class="mb-0 flex-shrink-0">
+                                    <img src="assets/images/icons/feat-1.svg" alt="" title="" />
+                                </figure>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2>Comfortable</h2>
+                                    <p>Beautiful Apartments</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 fade-up">
+                        <article class="feat-item">
+                            <div class="d-flex align-items-center">
+                                <figure class="mb-0 flex-shrink-0">
+                                    <img src="assets/images/icons/feat-1.svg" alt="" title="" />
+                                </figure>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2>Accessible</h2>
+                                    <p>Around Berlin City Center</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 fade-up">
+                        <article class="feat-item">
+                            <div class="d-flex align-items-center">
+                                <figure class="mb-0 flex-shrink-0">
+                                    <img src="assets/images/icons/feat-1.svg" alt="" title="" />
+                                </figure>
+                                <div class="flex-grow-1 ms-3">
+                                    <h2>24 / 7 Support</h2>
+                                    <p>Dedicated support</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main hero or Slider -->
+
+    <!-- main-footer -->
+    <footer class="main-footer">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="assets/images/zozoberlin.svg" alt="" title="" />
+                    <br>
+                    <br>
+                    <p><i>Kastanienallee 101 <br> 10435 Berlin</i></p>
+                </div>
+                <div class="col-lg-3 ms-auto">
+                    <h4>Links</h4>
+                    <nav class="footer-list">
+                        <a href="" class="nav-link">Home</a>
+                        <a href="" class="nav-link">Appartments</a>
+                        <a href="" class="nav-link">Contact Us</a>
+                    </nav>
+                </div>
+                <div class="col-lg-3 me-auto">
+                    <h4>help</h4>
+                    <nav class="footer-list">
+                        <a href="" class="nav-link">Home</a>
+                        <a href="" class="nav-link">Appartments</a>
+                        <a href="" class="nav-link">Contact Us</a>
+                    </nav>
+                </div>
+            </div>
+            <img src="assets/images/footer.svg" alt="" class="footer-log-img" />
+        </div>
+
+        <div class="container">
+            <hr>
+            <p>2025 zozoberlin. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- main-footer -->
+
+    <script src="assets/js/jquery.js" defer></script>
+    <script src="https://unpkg.com/@popperjs/core@2" defer></script>
+    <script src="assets/vendor/bootstrap-5.3.8-dist/js/bootstrap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js" defer></script>
+</body>
+
+</html>
